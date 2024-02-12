@@ -1,5 +1,7 @@
 # 100 - Prerequisites
 
+Based on "Amazon Web Services (AWS)" at https://www.gitpod.io/docs/integrations/aws
+
 Before creating an EKS cluster, make sure to:
 
 1. [Install the AWS Command Line Interface (AWS CLI)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) for interacting with the different parts of AWS.
