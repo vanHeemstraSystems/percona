@@ -1,4 +1,4 @@
-# 300 - get Expert help
+# 300 - Get Expert Help
 
 If you need assistance, visit the community forum for comprehensive and free database knowledge, or contact our Percona Database Experts for professional support and services. 
 
