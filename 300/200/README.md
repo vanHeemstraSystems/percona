@@ -21,3 +21,7 @@ See [README.md](./300/README.md)
 gke-<name>-default-pool-75d48bfc-bx8g   Ready    <none>   11h   v1.26.7-gke.500
 gke-<name>-default-pool-75d48bfc-c2df   Ready    <none>   11h   v1.26.7-gke.500
 gke-<name>-default-pool-75d48bfc-zl7k   Ready    <none>   11h   v1.26.7-gke.500```
+
+## 400 - Install on Scaleway's Managed Kubernetes Cluster with Kapsule
+
+See [README.md](./400/README.md)
