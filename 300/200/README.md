@@ -9,7 +9,7 @@ Before getting started with Percona Everest, do the following:
 
 See [README.md](./100/README.md)
 
-## 200 - Create GKE Cluster
+## 200 - Create Kubernetes cluster on Google Kubernetes Engine (GKE)
 
 See [README.md](./200/README.md)
 
