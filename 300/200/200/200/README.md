@@ -14,3 +14,24 @@ You may wait a few minutes for the cluster to be generated.
 
 When the process is over, you can see it listed in the Google Cloud console.
 
+![gke-quickstart-cluster-connect](https://github.com/vanHeemstraSystems/percona/assets/1499433/329adc6e-47ce-4668-93f1-ff32f19328ca)
+
+Now you should configure the command-line access to your newly created cluster to make ```kubectl``` be able to use it.
+
+In the Google Cloud Console, select your cluster and then click the *Connect* shown on the above image. You will see the connect statement which configures the command-line access. After you have edited the statement, you may run the command in your local shell:
+
+```
+$ gcloud container clusters get-credentials my-cluster-name --zone us-central1-a --project <project name>
+```
+
+Finally, use your [Cloud Identity and Access Management (Cloud IAM)](https://cloud.google.com/iam) to control access to the cluster. The following command will give you the ability to create Roles and RoleBindings:
+
+```
+$ kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gcloud config get-value core/account)
+```
+
+Expected output:
+
+```
+clusterrolebinding.rbac.authorization.k8s.io/cluster-admin-binding created
+```
