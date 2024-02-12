@@ -5,6 +5,8 @@ Based on "Install Percona Monitoring and management - Free Open source monitorin
 
 Based on "Get started with PMM" at https://docs.percona.com/percona-monitoring-and-management/quickstart/index.html
 
+Based on "Percona on GitHub" at https://github.com/percona/pmm
+
 Based on "PostgreSQL" at https://docs.percona.com/percona-monitoring-and-management/setting-up/client/postgresql.html
 
 ## 100 - Introduction
