@@ -5,7 +5,7 @@ Before getting started with Percona Everest, do the following:
 1. Install [curl](https://everything.curl.dev/get). **NOTE**: Curl is already installed on GitPod.
 2. Set up a Kubernetes cluster. Percona Everest assists with installing all the necessary operators and required packages, but does not currently help with spinning up a Kubernetes cluster. We recommend setting up Percona Everest on the Amazon Elastic Kubernetes Service (EKS) or Google Kubernetes Engine (GKE).
 
-## 100 - Create EKS Cluster
+## 100 - Create Kubernetes cluster on Amazon Elastic Kubernetes Service (EKS)
 
 See [README.md](./100/README.md)
 
