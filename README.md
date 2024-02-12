@@ -3,6 +3,8 @@ percona
 
 Based on "Install Percona Monitoring and management - Free Open source monitoring for your database" at https://www.youtube.com/watch?v=pgDUG59iXFQ
 
+Based on "PostgreSQL" at https://docs.percona.com/percona-monitoring-and-management/setting-up/client/postgresql.html
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
