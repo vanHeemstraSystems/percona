@@ -42,3 +42,4 @@ Forwarding from [::1]:8080 -> 8080
 
 Now, you can open your browser and create databases in Percona Everest.
 
+![image](https://github.com/vanHeemstraSystems/percona/assets/1499433/b5eb6fc7-4ce4-4a28-81e6-b7507c2bb4c3)
