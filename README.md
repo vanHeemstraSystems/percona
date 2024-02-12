@@ -1,7 +1,7 @@
-repository-name
-# Repository Name
+percona
+# Percona
 
-Based on "ABC" at https://www.abc.com/
+Based on "Install Percona Monitoring and management - Free Open source monitoring for your database" at https://www.youtube.com/watch?v=pgDUG59iXFQ
 
 ## 100 - Introduction
 
