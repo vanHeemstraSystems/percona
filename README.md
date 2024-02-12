@@ -7,6 +7,8 @@ Based on "Get started with PMM" at https://docs.percona.com/percona-monitoring-a
 
 Based on "Percona on GitHub" at https://github.com/percona/pmm
 
+Based on "Percona Forums" at https://forums.percona.com/
+
 Based on "PostgreSQL" at https://docs.percona.com/percona-monitoring-and-management/setting-up/client/postgresql.html
 
 ## 100 - Introduction
