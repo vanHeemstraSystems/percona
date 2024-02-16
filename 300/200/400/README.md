@@ -4,4 +4,6 @@ Based on "Getting started with Scaleway’s managed Kubernetes service - Kapsule
 
 Based on "Scaleway" at http://scaleway.com
 
-MORE ...
+## 100 - How to create a Kubernetes Kapsule cluster
+
+See [README.md](./100/README.md)
