@@ -41,9 +41,11 @@ This document concerns the creation and management of a **Kubernetes Kapsule** c
 **Important**
 The Private Network of your cluster can not be detached, and the cluster can not be moved to another Private Network after creation.
 
-6. Click **Next**. The second page of the Kapsule cluster creation wizard displays.
+6. Click **Configure pool**.
 
-7. This page concerns the settings for your cluster’s pool. Enter the following information:
+7. Click **Next**. The second page of the Kapsule cluster creation wizard displays.
+
+8. This page concerns the settings for your cluster’s pool. Enter the following information:
 
 - The **Availability Zone** in which all your pool’s nodes will be created.
 - The **node type** you require.
