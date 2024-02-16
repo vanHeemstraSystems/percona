@@ -41,14 +41,12 @@ This document concerns the creation and management of a **Kubernetes Kapsule** c
 **Important**
 The Private Network of your cluster can not be detached, and the cluster can not be moved to another Private Network after creation.
 
-6. Click **Configure pool**.
+6. Click **Configure pool**. The second page of the Kapsule cluster creation wizard displays.
 
-7. Click **Next**. The second page of the Kapsule cluster creation wizard displays.
+7. This page concerns the settings for your cluster’s pool. Enter the following information:
 
-8. This page concerns the settings for your cluster’s pool. Enter the following information:
-
-- The **Availability Zone** in which all your pool’s nodes will be created.
-- The **node type** you require.
+- The **Availability Zone** in which all your pool’s nodes will be created. We choose: **Amsterdam 1** as it is closest to us.
+- The **node type** you require. We choose: **Cost-Optimized**, with **PRO2-XXS (2 vCPUs)** as this matches the minimum requirements of Percona (2 vCPUs) at the lowest of cost at Euro 0.055/hour (excl.tax), 8 GB memory, Block Storage, 350 Mbps Bandwidth.
 - The configuration for your **node options**, including the number of nodes and whether to enable autoscale. You can also choose whether to enable autoheal and whether to link the cluster to a placement group. Alternatively, you can leave these options at default values. **IMPORTANT**: To run a 3-node pxc cluster, you will need at least a 3-node cluster with 2vCPUs available. The database will not be created if you attempt to create a database cluster in a Kubernetes cluster without sufficient resources.
 
 8. Click **Create cluster**. Your cluster is being deployed. Once the cluster is ready, it appears in the clusters list.
