@@ -46,7 +46,21 @@ The Private Network of your cluster can not be detached, and the cluster can not
 7. This page concerns the settings for your cluster’s pool. Enter the following information:
 
 - The **Availability Zone** in which all your pool’s nodes will be created. We choose: **Amsterdam 1** as it is closest to us.
-- The **node type** you require. We choose: **Cost-Optimized**, with **PRO2-XXS (2 vCPUs)** as this matches the minimum requirements of Percona (2 vCPUs) at the lowest of cost at Euro 0.055/hour (excl.tax), 8 GB memory, Block Storage, 350 Mbps Bandwidth.
-- The configuration for your **node options**, including the number of nodes and whether to enable autoscale. You can also choose whether to enable autoheal and whether to link the cluster to a placement group. Alternatively, you can leave these options at default values. **IMPORTANT**: To run a 3-node pxc cluster, you will need at least a 3-node cluster with 2vCPUs available. The database will not be created if you attempt to create a database cluster in a Kubernetes cluster without sufficient resources.
+- The **node type** you require. We choose: **Cost-Optimized**, with **PRO2-XXS (2 vCPUs)** as this matches the minimum requirements of Percona (2 vCPUs) at the lowest of cost at Euro 0.055/hour (excl.tax), 8 GB memory, Block Storage, 350 Mbps Bandwidth. **IMPORTANT**: To run a 3-node pxc cluster, you will need at least a 3-node cluster with 2vCPUs available. The database will not be created if you attempt to create a database cluster in a Kubernetes cluster without sufficient resources.
+- The configuration for your **pool options**, including the number of nodes and whether to enable autoscale. You can also choose whether to enable autoheal and whether to link the cluster to a placement group. Alternatively, you can leave these options at default values. We choose: **No Autoscale** to save on expenses. But we choose: **Autoheal** to keep the nodes in our pool in a healthy state. However, we choose: **No Full Isolation (private IPs only)** to save on expenses.
 
-8. Click **Create cluster**. Your cluster is being deployed. Once the cluster is ready, it appears in the clusters list.
+8. Optionally, choose **Advanced options**. We choose to not use Advanced options. 
+
+9. The **Estimated cost** calculator summarizes our anticipated costs per month (estimated at 730 hours) as follows:
+
+| Item | Details | Costs |
+| -- | -- | -- |
+| Cluster type | Kubernetes Kapsule - Mutalized | Euro 0.00 |
+| Region | Amsterdam - AMS 1 | Euro 0.00 |
+| Kubernetes version | 1.29.1 | Euro 0.00 |
+| Node options | 3 Nodes PRO2-XXS | Euro 120.45 at Euro 0.055/node/hour(s) |
+| Block storage | 20 GB per node | Euro 5.17 at Euro 0.17208/hour(s) |
+| -- | -- | **Euro 125.62** at Euro 0.17208/hour(s) |
+
+
+10. Click **Create cluster**. Your cluster is being deployed. Once the cluster is ready, it appears in the clusters list.
