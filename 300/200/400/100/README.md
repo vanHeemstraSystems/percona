@@ -46,6 +46,6 @@ The Private Network of your cluster can not be detached, and the cluster can not
 
 - The **Availability Zone** in which all your pool’s nodes will be created.
 - The **node type** you require.
-- The configuration for your **node options**, including the number of nodes and whether to enable autoscale. You can also choose whether to enable autoheal and whether to link the cluster to a placement group. Alternatively, you can leave these options at default values.
+- The configuration for your **node options**, including the number of nodes and whether to enable autoscale. You can also choose whether to enable autoheal and whether to link the cluster to a placement group. Alternatively, you can leave these options at default values. **IMPORTANT**: To run a 3-node pxc cluster, you will need at least a 3-node cluster with 2vCPUs available. The database will not be created if you attempt to create a database cluster in a Kubernetes cluster without sufficient resources.
 
 8. Click **Create cluster**. Your cluster is being deployed. Once the cluster is ready, it appears in the clusters list.
