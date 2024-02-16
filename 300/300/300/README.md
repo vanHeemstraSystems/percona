@@ -1,6 +1,6 @@
 # 300 - Installation
 
-1. To install Percona Everest, run the following command (recommended to do this from the [Scaleway Console]() in case you installed your Kubernetes Cluster at Scaleway):
+1. To install Percona Everest, run the following command (recommended to do this from the [Scaleway Console](https://console.scaleway.com) in case you installed your Kubernetes Cluster at Scaleway):
 
 ```
 $ curl -sfL "https://raw.githubusercontent.com/percona/percona-everest-cli/v0.7.0/install.sh" | bash
